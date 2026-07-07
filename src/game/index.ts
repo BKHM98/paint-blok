@@ -1,0 +1,20 @@
+// Barrel exports for FLAIR puzzle game
+export * from './types';
+export * from './theme';
+export * from './shapes';
+export * from './levels';
+export * from './validator';
+export * from './collectibles';
+export { default as Grid } from './Grid';
+export { default as Cell } from './Cell';
+export { default as ShapeBank } from './ShapeBank';
+export { default as LevelSelect } from './LevelSelect';
+export { default as HomeScreen } from './HomeScreen';
+export { default as ProgressBar } from './ProgressBar';
+export { default as SettingsScreen } from './SettingsScreen';
+export { default as CollectionScreen } from './CollectionScreen';
+export { default as ShopScreen } from './ShopScreen';
+export { default as LeaderboardScreen } from './LeaderboardScreen';
+export { default as TutorialScreen } from './TutorialScreen';
+export { progressManager, getPlayerLevel, calculateRewards } from './ProgressManager';
+export { soundManager } from './SoundManager';

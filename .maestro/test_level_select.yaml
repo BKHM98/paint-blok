@@ -1,0 +1,34 @@
+appId: host.exp.Exponent
+---
+# Test Level Selection
+- launchApp
+
+# Wait for Expo Go to load
+- waitForAnimationToEnd:
+    timeout: 5000
+
+# Tap on PuzzleApp in development servers
+- tapOn:
+    text: "PuzzleApp"
+    index: 0
+
+# Wait for our app to load
+- waitForAnimationToEnd:
+    timeout: 8000
+
+# Check level select screen is visible
+- assertVisible: "Select a Level"
+
+# Tap on Level 1 card (using coordinates since React Native text isn't accessible)
+- tapOn:
+    point: "50%, 35%"
+
+# Wait for game screen to load
+- waitForAnimationToEnd:
+    timeout: 3000
+
+# Verify we're on the game screen - should see Required Shapes
+- assertVisible: "Required Shapes"
+
+# Take screenshot to verify
+- takeScreenshot: "level_select_success"

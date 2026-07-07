@@ -1,0 +1,89 @@
+appId: host.exp.Exponent
+---
+# Test Level 1 completion and auto-advance
+- launchApp
+
+- waitForAnimationToEnd:
+    timeout: 5000
+
+- tapOn:
+    text: "PuzzleApp"
+    index: 0
+
+- waitForAnimationToEnd:
+    timeout: 10000
+
+# Dismiss overlay
+- tapOn:
+    point: "50%, 50%"
+
+- waitForAnimationToEnd:
+    timeout: 2000
+
+# Tap Level 1 - "First Steps" card (higher up on screen ~30%)
+- tapOn:
+    point: "50%, 30%"
+
+- waitForAnimationToEnd:
+    timeout: 3000
+
+- takeScreenshot: level_1_start
+
+# Level 1: 4x4 grid needs 4 O-blocks (2x2 squares)
+# Grid center is around 55-60% vertical
+# Each cell is about 12% width, grid starts at ~22%
+
+# Paint 4 separate 2x2 O-blocks
+# Block 1: top-left
+- swipe:
+    start: "24%, 48%"
+    end: "36%, 48%"
+    duration: 300
+- swipe:
+    start: "24%, 54%"
+    end: "36%, 54%"
+    duration: 300
+
+# Block 2: top-right
+- swipe:
+    start: "52%, 48%"
+    end: "64%, 48%"
+    duration: 300
+- swipe:
+    start: "52%, 54%"
+    end: "64%, 54%"
+    duration: 300
+
+# Block 3: bottom-left
+- swipe:
+    start: "24%, 60%"
+    end: "36%, 60%"
+    duration: 300
+- swipe:
+    start: "24%, 66%"
+    end: "36%, 66%"
+    duration: 300
+
+# Block 4: bottom-right
+- swipe:
+    start: "52%, 60%"
+    end: "64%, 60%"
+    duration: 300
+- swipe:
+    start: "52%, 66%"
+    end: "64%, 66%"
+    duration: 300
+
+- waitForAnimationToEnd:
+    timeout: 2000
+
+- takeScreenshot: level_1_painted
+
+# If level complete, alert should appear - tap OK
+- tapOn:
+    point: "50%, 55%"
+
+- waitForAnimationToEnd:
+    timeout: 3000
+
+- takeScreenshot: after_ok_tap

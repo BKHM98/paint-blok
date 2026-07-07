@@ -1,0 +1,1150 @@
+{"_e":"root:init","_t":1783363477165,"format":"v0-jsonl","version":"57.0.4"}
+{"_e":"env:mode","_t":1783363477165,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1783363477167,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1783363477340,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1783363477560,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1783363478009,"atlas":false,"workers":6,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1783363522481,"id":"1","platform":"ios","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:started","_t":1783363525495,"id":"2","platform":"ios","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:done","_t":1783363527879,"id":"1","total":808,"ms":5397.344583}
+{"_e":"metro:bundling:done","_t":1783363527906,"id":"2","total":1,"ms":2410.7325}
+{"_e":"root:init","_t":1783363549102,"format":"v0-jsonl","version":"57.0.4"}
+{"_e":"env:mode","_t":1783363549102,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1783363549104,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1783363549261,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1783363549480,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1783363549869,"atlas":false,"workers":6,"host":"::","port":8081}
+{"_e":"root:init","_t":1783363631730,"format":"v0-jsonl","version":"57.0.4"}
+{"_e":"env:mode","_t":1783363631730,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1783363631732,"mode":"development","files":[],"env":{}}
+{"_e":"root:init","_t":1783363646041,"format":"v0-jsonl","version":"57.0.4"}
+{"_e":"env:mode","_t":1783363646042,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1783363646043,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1783363646173,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1783363646399,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1783363646738,"atlas":false,"workers":6,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1783363678520,"id":"2","platform":"ios","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:done","_t":1783363683609,"id":"2","total":808,"ms":5087.457917}
+{"_e":"metro:client_log","_t":1783363684313,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:client_log","_t":1783363697394,"level":"error","data":["React has detected a change in the order of Hooks called by App. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks\n\n   Previous render            Next render\n   ------------------------------------------------------\n1. useState                   useState\n2. useState                   useState\n3. useState                   useState\n4. useState                   useState\n5. useState                   useState\n6. useState                   useState\n7. useState                   useState\n8. useState                   useState\n9. useState                   useState\n10. useState                  useState\n11. useState                  useState\n12. useState                  useState\n13. useState                  useState\n14. useState                  useState\n15. useState                  useState\n16. useState                  useState\n17. useState                  useState\n18. useRef                    useRef\n19. useRef                    useRef\n20. useRef                    useRef\n21. useRef                    useRef\n22. useRef                    useRef\n23. useRef                    useRef\n24. useRef                    useRef\n25. useRef                    useRef\n26. useRef                    useRef\n27. useEffect                 useEffect\n28. useEffect                 useEffect\n29. useEffect                 useEffect\n30. useCallback               useCallback\n31. useCallback               useCallback\n32. useCallback               useCallback\n33. useCallback               useCallback\n34. useCallback               useCallback\n35. useCallback               useCallback\n36. useCallback               useCallback\n37. useCallback               useCallback\n38. useCallback               useCallback\n39. useCallback               useCallback\n40. useCallback               useCallback\n41. useCallback               useCallback\n42. useCallback               useCallback\n43. useCallback               useCallback\n44. useCallback               useCallback\n45. useCallback               useCallback\n46. useCallback               useCallback\n47. useCallback               useCallback\n48. useCallback               useCallback\n49. useCallback               useCallback\n50. useCallback               useCallback\n51. useCallback               useCallback\n52. useCallback               useCallback\n53. useCallback               useCallback\n54. useCallback               useCallback\n55. useCallback               useCallback\n56. useCallback               useCallback\n57. useCallback               useCallback\n58. undefined                 useMemo\n   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"]}
+{"_e":"metro:client_log","_t":1783363697413,"level":"error","data":["[Error: Rendered more hooks than during the previous render.]"]}
+{"_e":"metro:bundling:failed","_t":1783363718206,"id":null,"message":"SyntaxError: /Users/karlmueller/PuzzleApp/App.tsx: Identifier 'shapeBorders' has already been declared. (908:8)\n\n  906 |\n  907 |   // Calculate shape borders for highlighting completed shapes\n> 908 |   const shapeBorders = useMemo(() => {\n      |         ^\n  909 |     if (!currentLevel) return {};\n  910 |     return getValidShapeBorders(grid, currentLevel.requiredShapes);\n  911 |   }, [grid, currentLevel]);","importStack":null,"filename":"App.tsx","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1783364647246,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783364864976,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783364904483,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783364918814,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783364924601,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:bundling:started","_t":1783364972452,"id":"b","platform":"ios","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:done","_t":1783364972507,"id":"b","total":1,"ms":54.065542}
+{"_e":"metro:client_log","_t":1783364972873,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783364972939,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:client_log","_t":1783365025328,"level":"error","data":["[ReferenceError: Property 'fixedGridSize' doesn't exist]"]}
+{"_e":"root:init","_t":1783365263757,"format":"v0-jsonl","version":"57.0.4"}
+{"_e":"env:mode","_t":1783365263758,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1783365263759,"mode":"development","files":[],"env":{}}
+{"_e":"metro:bundling:failed","_t":1783365452094,"id":null,"message":"SyntaxError: /Users/karlmueller/PuzzleApp/App.tsx: Expected corresponding JSX closing tag for <View>. (1066:6)\n\n  1064 |       </View>\n  1065 |\n> 1066 |       </SafeAreaView>\n       |       ^\n  1067 |\n  1068 |       {/* Well Done Overlay */}\n  1069 |       {showWellDone && (","importStack":null,"filename":"App.tsx","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1783365808579,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783365840348,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783365845010,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783365849884,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783365854143,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783365860639,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:bundling:started","_t":1783365889414,"id":"n","platform":"ios","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:done","_t":1783365889467,"id":"n","total":1,"ms":52.657542}
+{"_e":"metro:client_log","_t":1783365889796,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783365889849,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:client_log","_t":1783366534419,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783366552739,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783366567077,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783366575867,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783366581732,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783366598618,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783366617990,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783366623684,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783366630530,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783366638836,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"root:init","_t":1783367630403,"format":"v0-jsonl","version":"57.0.4"}
+{"_e":"env:mode","_t":1783367630404,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1783367630406,"mode":"development","files":[],"env":{}}
+{"_e":"root:init","_t":1783368113272,"format":"v0-jsonl","version":"57.0.4"}
+{"_e":"env:mode","_t":1783368113273,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1783368113274,"mode":"development","files":[],"env":{}}
+{"_e":"metro:client_log","_t":1783368820777,"level":"error","data":["[ReferenceError: Property 'LETTER_COLORS' doesn't exist]"]}
+{"_e":"metro:client_log","_t":1783368846005,"level":"error","data":["[ReferenceError: Property 'LETTER_COLORS' doesn't exist]"]}
+{"_e":"metro:client_log","_t":1783368853662,"level":"error","data":["[ReferenceError: Property 'LETTER_COLORS' doesn't exist]"]}
+{"_e":"metro:client_log","_t":1783368873347,"level":"error","data":["[ReferenceError: Property 'LETTER_COLORS' doesn't exist]"]}
+{"_e":"metro:bundling:failed","_t":1783368947875,"id":null,"message":"Unable to resolve \"../../../assets/paintblok-logo.png\" from \"src/game/HomeScreen.tsx\"\n  449 |           <Animated.View style={[styles.logoImageContainer, { opacity: menuAnim }]}>\n  450 |             <Image\n> 451 |               source={require('../../../assets/paintblok-logo.png')}\n      |                                ^\n  452 |               style={styles.logoImage}\n  453 |               resizeMode=\"contain\"\n  454 |             />","importStack":"Import stack:\n\n src/game/HomeScreen.tsx\n | import \"../../../assets/paintblok-logo.png\"\n\n \n | import \"./src/game/HomeScreen\"\n","filename":null,"targetModuleName":"../../../assets/paintblok-logo.png","originModulePath":"src/game/HomeScreen.tsx"}
+{"_e":"metro:bundling:failed","_t":1783368959810,"id":null,"message":"Unable to resolve \"../../../assets/paintblok-logo.png\" from \"src/game/HomeScreen.tsx\"\n  449 |           <Animated.View style={[styles.logoImageContainer, { opacity: menuAnim }]}>\n  450 |             <Image\n> 451 |               source={require('../../../assets/paintblok-logo.png')}\n      |                                ^\n  452 |               style={styles.logoImage}\n  453 |               resizeMode=\"contain\"\n  454 |             />","importStack":"Import stack:\n\n src/game/HomeScreen.tsx\n | import \"../../../assets/paintblok-logo.png\"\n\n \n | import \"./src/game/HomeScreen\"\n","filename":null,"targetModuleName":"../../../assets/paintblok-logo.png","originModulePath":"src/game/HomeScreen.tsx"}
+{"_e":"metro:bundling:failed","_t":1783368969997,"id":null,"message":"Unable to resolve \"../../../assets/paintblok-logo.png\" from \"src/game/HomeScreen.tsx\"\n  433 |           <Animated.View style={[styles.logoImageContainer, { opacity: menuAnim }]}>\n  434 |             <Image\n> 435 |               source={require('../../../assets/paintblok-logo.png')}\n      |                                ^\n  436 |               style={styles.logoImage}\n  437 |               resizeMode=\"contain\"\n  438 |             />","importStack":"Import stack:\n\n src/game/HomeScreen.tsx\n | import \"../../../assets/paintblok-logo.png\"\n\n \n | import \"./src/game/HomeScreen\"\n","filename":null,"targetModuleName":"../../../assets/paintblok-logo.png","originModulePath":"src/game/HomeScreen.tsx"}
+{"_e":"metro:bundling:failed","_t":1783368985515,"id":null,"message":"Unable to resolve \"../../../assets/paintblok-logo.png\" from \"src/game/HomeScreen.tsx\"\n  325 |           <Animated.View style={[styles.logoImageContainer, { opacity: menuAnim }]}>\n  326 |             <Image\n> 327 |               source={require('../../../assets/paintblok-logo.png')}\n      |                                ^\n  328 |               style={styles.logoImage}\n  329 |               resizeMode=\"contain\"\n  330 |             />","importStack":"Import stack:\n\n src/game/HomeScreen.tsx\n | import \"../../../assets/paintblok-logo.png\"\n\n \n | import \"./src/game/HomeScreen\"\n","filename":null,"targetModuleName":"../../../assets/paintblok-logo.png","originModulePath":"src/game/HomeScreen.tsx"}
+{"_e":"metro:client_log","_t":1783369826190,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783369836105,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783369842082,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783369847478,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783369853053,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783369858034,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783369864376,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783369870148,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783369876501,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783369883164,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783369889243,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783369894865,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783369939269,"level":"warn","data":["Level 51 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783369939274,"level":"warn","data":["Level 52 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939274,"level":"warn","data":["Level 54 invalid: grid has 24 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939274,"level":"warn","data":["Level 57 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783369939274,"level":"warn","data":["Level 58 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783369939275,"level":"warn","data":["Level 59 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939275,"level":"warn","data":["Level 60 invalid: grid has 27 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939275,"level":"warn","data":["Level 62 invalid: grid has 24 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939275,"level":"warn","data":["Level 63 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939275,"level":"warn","data":["Level 65 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783369939275,"level":"warn","data":["Level 66 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783369939276,"level":"warn","data":["Level 67 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939276,"level":"warn","data":["Level 69 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939276,"level":"warn","data":["Level 72 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783369939276,"level":"warn","data":["Level 73 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783369939276,"level":"warn","data":["Level 74 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939276,"level":"warn","data":["Level 75 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939276,"level":"warn","data":["Level 77 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939277,"level":"warn","data":["Level 78 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939277,"level":"warn","data":["Level 80 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783369939277,"level":"warn","data":["Level 81 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783369939277,"level":"warn","data":["Level 82 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939277,"level":"warn","data":["Level 84 invalid: grid has 21 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939277,"level":"warn","data":["Level 87 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783369939277,"level":"warn","data":["Level 88 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783369939278,"level":"warn","data":["Level 89 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939278,"level":"warn","data":["Level 90 invalid: grid has 27 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939278,"level":"warn","data":["Level 92 invalid: grid has 21 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939278,"level":"warn","data":["Level 93 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939278,"level":"warn","data":["Level 95 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783369939278,"level":"warn","data":["Level 96 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783369939279,"level":"warn","data":["Level 97 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939280,"level":"warn","data":["Level 99 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939282,"level":"warn","data":["Level 102 invalid: grid has 20 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783369939286,"level":"warn","data":["Level 103 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783369939286,"level":"warn","data":["Level 104 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939286,"level":"warn","data":["Level 105 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939286,"level":"warn","data":["Level 107 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939286,"level":"warn","data":["Level 108 invalid: grid has 25 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939286,"level":"warn","data":["Level 110 invalid: grid has 33 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783369939287,"level":"warn","data":["Level 111 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783369939287,"level":"warn","data":["Level 112 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939287,"level":"warn","data":["Level 114 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939287,"level":"warn","data":["Level 117 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783369939287,"level":"warn","data":["Level 118 invalid: grid has 24 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783369939287,"level":"warn","data":["Level 119 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939287,"level":"warn","data":["Level 120 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939287,"level":"warn","data":["Level 122 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939287,"level":"warn","data":["Level 123 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939287,"level":"warn","data":["Level 125 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783369939287,"level":"warn","data":["Level 126 invalid: grid has 20 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783369939287,"level":"warn","data":["Level 127 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939287,"level":"warn","data":["Level 129 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939287,"level":"warn","data":["Level 132 invalid: grid has 17 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783369939287,"level":"warn","data":["Level 133 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783369939287,"level":"warn","data":["Level 134 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939287,"level":"warn","data":["Level 135 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939287,"level":"warn","data":["Level 137 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939287,"level":"warn","data":["Level 138 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939287,"level":"warn","data":["Level 140 invalid: grid has 33 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783369939287,"level":"warn","data":["Level 141 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783369939287,"level":"warn","data":["Level 142 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939288,"level":"warn","data":["Level 144 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939293,"level":"warn","data":["Level 147 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783369939293,"level":"warn","data":["Level 149 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939293,"level":"warn","data":["Level 150 invalid: grid has 27 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939293,"level":"warn","data":["Level 152 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939294,"level":"warn","data":["Level 153 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939294,"level":"warn","data":["Level 155 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783369939294,"level":"warn","data":["Level 156 invalid: grid has 17 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783369939295,"level":"warn","data":["Level 157 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939295,"level":"warn","data":["Level 158 invalid: grid has 20 paintable cells but shapes need 18"]}
+{"_e":"metro:client_log","_t":1783369939295,"level":"warn","data":["Level 159 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939296,"level":"warn","data":["Level 162 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783369939296,"level":"warn","data":["Level 163 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783369939296,"level":"warn","data":["Level 164 invalid: grid has 25 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939296,"level":"warn","data":["Level 165 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939296,"level":"warn","data":["Level 167 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939296,"level":"warn","data":["Level 168 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939296,"level":"warn","data":["Level 170 invalid: grid has 33 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783369939296,"level":"warn","data":["Level 171 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783369939296,"level":"warn","data":["Level 172 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939296,"level":"warn","data":["Level 174 invalid: grid has 24 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939297,"level":"warn","data":["Level 177 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783369939297,"level":"warn","data":["Level 178 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783369939297,"level":"warn","data":["Level 179 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939297,"level":"warn","data":["Level 180 invalid: grid has 27 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939297,"level":"warn","data":["Level 182 invalid: grid has 24 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939297,"level":"warn","data":["Level 183 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939297,"level":"warn","data":["Level 185 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783369939297,"level":"warn","data":["Level 186 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783369939297,"level":"warn","data":["Level 187 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939298,"level":"warn","data":["Level 189 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939298,"level":"warn","data":["Level 192 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783369939298,"level":"warn","data":["Level 193 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783369939298,"level":"warn","data":["Level 194 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939298,"level":"warn","data":["Level 195 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939298,"level":"warn","data":["Level 197 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783369939299,"level":"warn","data":["Level 198 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783369939299,"level":"warn","data":["Level 200 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370013566,"level":"warn","data":["Level 51 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370013569,"level":"warn","data":["Level 52 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013569,"level":"warn","data":["Level 54 invalid: grid has 24 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013569,"level":"warn","data":["Level 57 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370013569,"level":"warn","data":["Level 58 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370013570,"level":"warn","data":["Level 59 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013570,"level":"warn","data":["Level 60 invalid: grid has 27 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013570,"level":"warn","data":["Level 62 invalid: grid has 24 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013570,"level":"warn","data":["Level 63 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013570,"level":"warn","data":["Level 65 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370013571,"level":"warn","data":["Level 66 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370013571,"level":"warn","data":["Level 67 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013571,"level":"warn","data":["Level 69 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013571,"level":"warn","data":["Level 72 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370013571,"level":"warn","data":["Level 73 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370013571,"level":"warn","data":["Level 74 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013572,"level":"warn","data":["Level 75 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013572,"level":"warn","data":["Level 77 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013572,"level":"warn","data":["Level 78 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013572,"level":"warn","data":["Level 80 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370013572,"level":"warn","data":["Level 81 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370013572,"level":"warn","data":["Level 82 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013572,"level":"warn","data":["Level 84 invalid: grid has 21 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013572,"level":"warn","data":["Level 87 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370013573,"level":"warn","data":["Level 88 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370013573,"level":"warn","data":["Level 89 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013573,"level":"warn","data":["Level 90 invalid: grid has 27 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013573,"level":"warn","data":["Level 92 invalid: grid has 21 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013573,"level":"warn","data":["Level 93 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013573,"level":"warn","data":["Level 95 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370013573,"level":"warn","data":["Level 96 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370013574,"level":"warn","data":["Level 97 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013574,"level":"warn","data":["Level 99 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013574,"level":"warn","data":["Level 102 invalid: grid has 20 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370013574,"level":"warn","data":["Level 103 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370013574,"level":"warn","data":["Level 104 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013574,"level":"warn","data":["Level 105 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013574,"level":"warn","data":["Level 107 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013574,"level":"warn","data":["Level 108 invalid: grid has 25 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013574,"level":"warn","data":["Level 110 invalid: grid has 33 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370013575,"level":"warn","data":["Level 111 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370013575,"level":"warn","data":["Level 112 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013575,"level":"warn","data":["Level 114 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013575,"level":"warn","data":["Level 117 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370013575,"level":"warn","data":["Level 118 invalid: grid has 24 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370013575,"level":"warn","data":["Level 119 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013575,"level":"warn","data":["Level 120 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013576,"level":"warn","data":["Level 122 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013576,"level":"warn","data":["Level 123 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013576,"level":"warn","data":["Level 125 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370013576,"level":"warn","data":["Level 126 invalid: grid has 20 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370013576,"level":"warn","data":["Level 127 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013576,"level":"warn","data":["Level 129 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013576,"level":"warn","data":["Level 132 invalid: grid has 17 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370013576,"level":"warn","data":["Level 133 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370013577,"level":"warn","data":["Level 134 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013577,"level":"warn","data":["Level 135 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013577,"level":"warn","data":["Level 137 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013577,"level":"warn","data":["Level 138 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013577,"level":"warn","data":["Level 140 invalid: grid has 33 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370013577,"level":"warn","data":["Level 141 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370013577,"level":"warn","data":["Level 142 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013578,"level":"warn","data":["Level 144 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013578,"level":"warn","data":["Level 147 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370013578,"level":"warn","data":["Level 149 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013578,"level":"warn","data":["Level 150 invalid: grid has 27 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013578,"level":"warn","data":["Level 152 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013578,"level":"warn","data":["Level 153 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013578,"level":"warn","data":["Level 155 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370013578,"level":"warn","data":["Level 156 invalid: grid has 17 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370013579,"level":"warn","data":["Level 157 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013579,"level":"warn","data":["Level 158 invalid: grid has 20 paintable cells but shapes need 18"]}
+{"_e":"metro:client_log","_t":1783370013579,"level":"warn","data":["Level 159 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013579,"level":"warn","data":["Level 162 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370013587,"level":"warn","data":["Level 163 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370013587,"level":"warn","data":["Level 164 invalid: grid has 25 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013587,"level":"warn","data":["Level 165 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013587,"level":"warn","data":["Level 167 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013588,"level":"warn","data":["Level 168 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013588,"level":"warn","data":["Level 170 invalid: grid has 33 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370013588,"level":"warn","data":["Level 171 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370013588,"level":"warn","data":["Level 172 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013588,"level":"warn","data":["Level 174 invalid: grid has 24 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013588,"level":"warn","data":["Level 177 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370013588,"level":"warn","data":["Level 178 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370013588,"level":"warn","data":["Level 179 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013589,"level":"warn","data":["Level 180 invalid: grid has 27 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013589,"level":"warn","data":["Level 182 invalid: grid has 24 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013589,"level":"warn","data":["Level 183 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013589,"level":"warn","data":["Level 185 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370013589,"level":"warn","data":["Level 186 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370013589,"level":"warn","data":["Level 187 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013589,"level":"warn","data":["Level 189 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013589,"level":"warn","data":["Level 192 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370013590,"level":"warn","data":["Level 193 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370013590,"level":"warn","data":["Level 194 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013590,"level":"warn","data":["Level 195 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013590,"level":"warn","data":["Level 197 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370013590,"level":"warn","data":["Level 198 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370013590,"level":"warn","data":["Level 200 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370027108,"level":"warn","data":["Level 51 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370027108,"level":"warn","data":["Level 52 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370027109,"level":"warn","data":["Level 54 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370027109,"level":"warn","data":["Level 57 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370027109,"level":"warn","data":["Level 58 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370027109,"level":"warn","data":["Level 60 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370027109,"level":"warn","data":["Level 62 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370027109,"level":"warn","data":["Level 63 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370027109,"level":"warn","data":["Level 65 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370027110,"level":"warn","data":["Level 66 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370027110,"level":"warn","data":["Level 67 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370027110,"level":"warn","data":["Level 72 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370027110,"level":"warn","data":["Level 73 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370027110,"level":"warn","data":["Level 74 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370027110,"level":"warn","data":["Level 75 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370027110,"level":"warn","data":["Level 77 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370027110,"level":"warn","data":["Level 78 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370027111,"level":"warn","data":["Level 80 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370027111,"level":"warn","data":["Level 81 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370027111,"level":"warn","data":["Level 82 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370027111,"level":"warn","data":["Level 84 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370027111,"level":"warn","data":["Level 87 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370027111,"level":"warn","data":["Level 88 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370027111,"level":"warn","data":["Level 90 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370027112,"level":"warn","data":["Level 92 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370027112,"level":"warn","data":["Level 93 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370027112,"level":"warn","data":["Level 95 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370027112,"level":"warn","data":["Level 96 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370027112,"level":"warn","data":["Level 97 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370027112,"level":"warn","data":["Level 102 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370027112,"level":"warn","data":["Level 103 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370027112,"level":"warn","data":["Level 104 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370027113,"level":"warn","data":["Level 105 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370027113,"level":"warn","data":["Level 107 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370027113,"level":"warn","data":["Level 108 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370027113,"level":"warn","data":["Level 110 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370027113,"level":"warn","data":["Level 111 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370027113,"level":"warn","data":["Level 112 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370027113,"level":"warn","data":["Level 114 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370027113,"level":"warn","data":["Level 117 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370027114,"level":"warn","data":["Level 118 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370027114,"level":"warn","data":["Level 120 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370027114,"level":"warn","data":["Level 122 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370027114,"level":"warn","data":["Level 123 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370027114,"level":"warn","data":["Level 125 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370027114,"level":"warn","data":["Level 126 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370027114,"level":"warn","data":["Level 127 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370027114,"level":"warn","data":["Level 132 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370027114,"level":"warn","data":["Level 133 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370027115,"level":"warn","data":["Level 134 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370027115,"level":"warn","data":["Level 135 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370027115,"level":"warn","data":["Level 137 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370027115,"level":"warn","data":["Level 138 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370027115,"level":"warn","data":["Level 140 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370027115,"level":"warn","data":["Level 141 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370027115,"level":"warn","data":["Level 142 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370027115,"level":"warn","data":["Level 144 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370027116,"level":"warn","data":["Level 147 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370027116,"level":"warn","data":["Level 148 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370027116,"level":"warn","data":["Level 150 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370027116,"level":"warn","data":["Level 152 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370027116,"level":"warn","data":["Level 153 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370027116,"level":"warn","data":["Level 155 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370027116,"level":"warn","data":["Level 156 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370027116,"level":"warn","data":["Level 157 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370027117,"level":"warn","data":["Level 162 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370027117,"level":"warn","data":["Level 163 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370027117,"level":"warn","data":["Level 164 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370027117,"level":"warn","data":["Level 165 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370027117,"level":"warn","data":["Level 167 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370027117,"level":"warn","data":["Level 168 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370027117,"level":"warn","data":["Level 170 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370027117,"level":"warn","data":["Level 171 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370027118,"level":"warn","data":["Level 172 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370027118,"level":"warn","data":["Level 174 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370027118,"level":"warn","data":["Level 177 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370027118,"level":"warn","data":["Level 178 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370027118,"level":"warn","data":["Level 180 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370027118,"level":"warn","data":["Level 182 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370027118,"level":"warn","data":["Level 183 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370027118,"level":"warn","data":["Level 185 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370027119,"level":"warn","data":["Level 186 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370027119,"level":"warn","data":["Level 187 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370027119,"level":"warn","data":["Level 192 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370027119,"level":"warn","data":["Level 193 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370027119,"level":"warn","data":["Level 194 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370027119,"level":"warn","data":["Level 195 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370027122,"level":"warn","data":["Level 197 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370027123,"level":"warn","data":["Level 198 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370027123,"level":"warn","data":["Level 200 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370033695,"level":"warn","data":["Level 51 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370033695,"level":"warn","data":["Level 52 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370033695,"level":"warn","data":["Level 54 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370033695,"level":"warn","data":["Level 57 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370033695,"level":"warn","data":["Level 58 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370033695,"level":"warn","data":["Level 60 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370033696,"level":"warn","data":["Level 62 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370033696,"level":"warn","data":["Level 63 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370033696,"level":"warn","data":["Level 65 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370033696,"level":"warn","data":["Level 66 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370033696,"level":"warn","data":["Level 67 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370033696,"level":"warn","data":["Level 72 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370033696,"level":"warn","data":["Level 73 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370033697,"level":"warn","data":["Level 74 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370033697,"level":"warn","data":["Level 75 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370033697,"level":"warn","data":["Level 77 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370033697,"level":"warn","data":["Level 78 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370033697,"level":"warn","data":["Level 80 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370033697,"level":"warn","data":["Level 81 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370033697,"level":"warn","data":["Level 82 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370033698,"level":"warn","data":["Level 84 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370033698,"level":"warn","data":["Level 87 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370033698,"level":"warn","data":["Level 88 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370033698,"level":"warn","data":["Level 90 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370033698,"level":"warn","data":["Level 92 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370033698,"level":"warn","data":["Level 93 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370033698,"level":"warn","data":["Level 95 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370033698,"level":"warn","data":["Level 96 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370033699,"level":"warn","data":["Level 97 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370033699,"level":"warn","data":["Level 102 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370033699,"level":"warn","data":["Level 103 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370033699,"level":"warn","data":["Level 104 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370033699,"level":"warn","data":["Level 105 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370033699,"level":"warn","data":["Level 107 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370033699,"level":"warn","data":["Level 108 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370033699,"level":"warn","data":["Level 110 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370033700,"level":"warn","data":["Level 111 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370033700,"level":"warn","data":["Level 112 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370033700,"level":"warn","data":["Level 114 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370033700,"level":"warn","data":["Level 117 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370033700,"level":"warn","data":["Level 118 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370033700,"level":"warn","data":["Level 120 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370033700,"level":"warn","data":["Level 122 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370033701,"level":"warn","data":["Level 123 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370033701,"level":"warn","data":["Level 125 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370033701,"level":"warn","data":["Level 126 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370033701,"level":"warn","data":["Level 127 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370033701,"level":"warn","data":["Level 132 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370033702,"level":"warn","data":["Level 133 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370033702,"level":"warn","data":["Level 134 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370033702,"level":"warn","data":["Level 135 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370033702,"level":"warn","data":["Level 137 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370033702,"level":"warn","data":["Level 138 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370033702,"level":"warn","data":["Level 140 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370033702,"level":"warn","data":["Level 141 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370033703,"level":"warn","data":["Level 142 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370033703,"level":"warn","data":["Level 144 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370033703,"level":"warn","data":["Level 147 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370033703,"level":"warn","data":["Level 148 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370033703,"level":"warn","data":["Level 150 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370033703,"level":"warn","data":["Level 152 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370033704,"level":"warn","data":["Level 153 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370033704,"level":"warn","data":["Level 155 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370033704,"level":"warn","data":["Level 156 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370033704,"level":"warn","data":["Level 157 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370033704,"level":"warn","data":["Level 162 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370033704,"level":"warn","data":["Level 163 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370033705,"level":"warn","data":["Level 164 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370033705,"level":"warn","data":["Level 165 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370033705,"level":"warn","data":["Level 167 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370033705,"level":"warn","data":["Level 168 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370033705,"level":"warn","data":["Level 170 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370033705,"level":"warn","data":["Level 171 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370033705,"level":"warn","data":["Level 172 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370033705,"level":"warn","data":["Level 174 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370033705,"level":"warn","data":["Level 177 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370033706,"level":"warn","data":["Level 178 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370033706,"level":"warn","data":["Level 180 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370033706,"level":"warn","data":["Level 182 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370033706,"level":"warn","data":["Level 183 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370033706,"level":"warn","data":["Level 185 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370033706,"level":"warn","data":["Level 186 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370033706,"level":"warn","data":["Level 187 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370033706,"level":"warn","data":["Level 192 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370033707,"level":"warn","data":["Level 193 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370033707,"level":"warn","data":["Level 194 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370033707,"level":"warn","data":["Level 195 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370033707,"level":"warn","data":["Level 197 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370033707,"level":"warn","data":["Level 198 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370033707,"level":"warn","data":["Level 200 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370039390,"level":"warn","data":["Level 51 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370039391,"level":"warn","data":["Level 52 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370039391,"level":"warn","data":["Level 54 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370039392,"level":"warn","data":["Level 57 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370039392,"level":"warn","data":["Level 58 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370039392,"level":"warn","data":["Level 60 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370039393,"level":"warn","data":["Level 62 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370039393,"level":"warn","data":["Level 63 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370039393,"level":"warn","data":["Level 65 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370039394,"level":"warn","data":["Level 66 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370039394,"level":"warn","data":["Level 67 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370039394,"level":"warn","data":["Level 72 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370039394,"level":"warn","data":["Level 73 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370039394,"level":"warn","data":["Level 74 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370039395,"level":"warn","data":["Level 75 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370039395,"level":"warn","data":["Level 77 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370039395,"level":"warn","data":["Level 78 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370039395,"level":"warn","data":["Level 80 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370039396,"level":"warn","data":["Level 81 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370039396,"level":"warn","data":["Level 82 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370039396,"level":"warn","data":["Level 84 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370039396,"level":"warn","data":["Level 87 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370039396,"level":"warn","data":["Level 88 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370039396,"level":"warn","data":["Level 90 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370039397,"level":"warn","data":["Level 92 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370039397,"level":"warn","data":["Level 93 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370039397,"level":"warn","data":["Level 95 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370039397,"level":"warn","data":["Level 96 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370039397,"level":"warn","data":["Level 97 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370039397,"level":"warn","data":["Level 102 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370039398,"level":"warn","data":["Level 103 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370039398,"level":"warn","data":["Level 104 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370039398,"level":"warn","data":["Level 105 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370039398,"level":"warn","data":["Level 107 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370039398,"level":"warn","data":["Level 108 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370039398,"level":"warn","data":["Level 110 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370039398,"level":"warn","data":["Level 111 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370039398,"level":"warn","data":["Level 112 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370039398,"level":"warn","data":["Level 114 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370039399,"level":"warn","data":["Level 117 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370039399,"level":"warn","data":["Level 118 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370039399,"level":"warn","data":["Level 120 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370039399,"level":"warn","data":["Level 122 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370039399,"level":"warn","data":["Level 123 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370039399,"level":"warn","data":["Level 125 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370039400,"level":"warn","data":["Level 126 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370039400,"level":"warn","data":["Level 127 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370039400,"level":"warn","data":["Level 132 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370039400,"level":"warn","data":["Level 133 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370039400,"level":"warn","data":["Level 134 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370039400,"level":"warn","data":["Level 135 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370039401,"level":"warn","data":["Level 137 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370039401,"level":"warn","data":["Level 138 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370039401,"level":"warn","data":["Level 140 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370039401,"level":"warn","data":["Level 141 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370039401,"level":"warn","data":["Level 142 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370039401,"level":"warn","data":["Level 144 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370039401,"level":"warn","data":["Level 147 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370039401,"level":"warn","data":["Level 148 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370039401,"level":"warn","data":["Level 150 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370039401,"level":"warn","data":["Level 152 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370039401,"level":"warn","data":["Level 153 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370039402,"level":"warn","data":["Level 155 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370039402,"level":"warn","data":["Level 156 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370039402,"level":"warn","data":["Level 157 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370039402,"level":"warn","data":["Level 162 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370039402,"level":"warn","data":["Level 163 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370039402,"level":"warn","data":["Level 164 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370039403,"level":"warn","data":["Level 165 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370039403,"level":"warn","data":["Level 167 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370039403,"level":"warn","data":["Level 168 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370039403,"level":"warn","data":["Level 170 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370039403,"level":"warn","data":["Level 171 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370039403,"level":"warn","data":["Level 172 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370039403,"level":"warn","data":["Level 174 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370039404,"level":"warn","data":["Level 177 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370039404,"level":"warn","data":["Level 178 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370039404,"level":"warn","data":["Level 180 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370039404,"level":"warn","data":["Level 182 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370039404,"level":"warn","data":["Level 183 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370039404,"level":"warn","data":["Level 185 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370039405,"level":"warn","data":["Level 186 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370039405,"level":"warn","data":["Level 187 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370039405,"level":"warn","data":["Level 192 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370039405,"level":"warn","data":["Level 193 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370039405,"level":"warn","data":["Level 194 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370039405,"level":"warn","data":["Level 195 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370039405,"level":"warn","data":["Level 197 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370039405,"level":"warn","data":["Level 198 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370039406,"level":"warn","data":["Level 200 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370064060,"level":"warn","data":["Level 51 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370064061,"level":"warn","data":["Level 52 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370064061,"level":"warn","data":["Level 54 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370064061,"level":"warn","data":["Level 57 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370064061,"level":"warn","data":["Level 58 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370064062,"level":"warn","data":["Level 60 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370064062,"level":"warn","data":["Level 62 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370064062,"level":"warn","data":["Level 63 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370064063,"level":"warn","data":["Level 65 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370064063,"level":"warn","data":["Level 66 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370064064,"level":"warn","data":["Level 67 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370064064,"level":"warn","data":["Level 72 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370064064,"level":"warn","data":["Level 73 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370064064,"level":"warn","data":["Level 74 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370064064,"level":"warn","data":["Level 75 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370064064,"level":"warn","data":["Level 77 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370064064,"level":"warn","data":["Level 78 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370064064,"level":"warn","data":["Level 80 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370064064,"level":"warn","data":["Level 81 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370064065,"level":"warn","data":["Level 82 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370064065,"level":"warn","data":["Level 84 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370064065,"level":"warn","data":["Level 87 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370064065,"level":"warn","data":["Level 88 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370064065,"level":"warn","data":["Level 90 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370064065,"level":"warn","data":["Level 92 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370064065,"level":"warn","data":["Level 93 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370064066,"level":"warn","data":["Level 95 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370064066,"level":"warn","data":["Level 96 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370064066,"level":"warn","data":["Level 97 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370064066,"level":"warn","data":["Level 102 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370064066,"level":"warn","data":["Level 103 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370064066,"level":"warn","data":["Level 104 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370064066,"level":"warn","data":["Level 105 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370064067,"level":"warn","data":["Level 107 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370064067,"level":"warn","data":["Level 108 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370064067,"level":"warn","data":["Level 110 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370064067,"level":"warn","data":["Level 111 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370064067,"level":"warn","data":["Level 112 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370064068,"level":"warn","data":["Level 114 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370064068,"level":"warn","data":["Level 117 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370064068,"level":"warn","data":["Level 118 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370064068,"level":"warn","data":["Level 120 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370064068,"level":"warn","data":["Level 122 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370064069,"level":"warn","data":["Level 123 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370064069,"level":"warn","data":["Level 125 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370064069,"level":"warn","data":["Level 126 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370064069,"level":"warn","data":["Level 127 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370064070,"level":"warn","data":["Level 132 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370064071,"level":"warn","data":["Level 133 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370064071,"level":"warn","data":["Level 134 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370064071,"level":"warn","data":["Level 135 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370064071,"level":"warn","data":["Level 137 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370064072,"level":"warn","data":["Level 138 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370064072,"level":"warn","data":["Level 140 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370064072,"level":"warn","data":["Level 141 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370064072,"level":"warn","data":["Level 142 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370064072,"level":"warn","data":["Level 144 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370064073,"level":"warn","data":["Level 147 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370064073,"level":"warn","data":["Level 148 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370064073,"level":"warn","data":["Level 150 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370064073,"level":"warn","data":["Level 152 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370064073,"level":"warn","data":["Level 153 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370064074,"level":"warn","data":["Level 155 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370064075,"level":"warn","data":["Level 156 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370064075,"level":"warn","data":["Level 157 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370064075,"level":"warn","data":["Level 162 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370064075,"level":"warn","data":["Level 163 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370064075,"level":"warn","data":["Level 164 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370064075,"level":"warn","data":["Level 165 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370064075,"level":"warn","data":["Level 167 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370064075,"level":"warn","data":["Level 168 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370064075,"level":"warn","data":["Level 170 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370064075,"level":"warn","data":["Level 171 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370064075,"level":"warn","data":["Level 172 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370064075,"level":"warn","data":["Level 174 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370064075,"level":"warn","data":["Level 177 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370064076,"level":"warn","data":["Level 178 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370064076,"level":"warn","data":["Level 180 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370064076,"level":"warn","data":["Level 182 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370064076,"level":"warn","data":["Level 183 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370064076,"level":"warn","data":["Level 185 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370064076,"level":"warn","data":["Level 186 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370064076,"level":"warn","data":["Level 187 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370064077,"level":"warn","data":["Level 192 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370064077,"level":"warn","data":["Level 193 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370064077,"level":"warn","data":["Level 194 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370064077,"level":"warn","data":["Level 195 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370064077,"level":"warn","data":["Level 197 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370064077,"level":"warn","data":["Level 198 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370064077,"level":"warn","data":["Level 200 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370093357,"level":"warn","data":["Level 51 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370093357,"level":"warn","data":["Level 52 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370093357,"level":"warn","data":["Level 54 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370093358,"level":"warn","data":["Level 57 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370093358,"level":"warn","data":["Level 58 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370093359,"level":"warn","data":["Level 60 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370093359,"level":"warn","data":["Level 62 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370093359,"level":"warn","data":["Level 63 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370093359,"level":"warn","data":["Level 65 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370093359,"level":"warn","data":["Level 66 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370093360,"level":"warn","data":["Level 67 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370093360,"level":"warn","data":["Level 72 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370093360,"level":"warn","data":["Level 73 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370093360,"level":"warn","data":["Level 74 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370093360,"level":"warn","data":["Level 75 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370093360,"level":"warn","data":["Level 77 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370093360,"level":"warn","data":["Level 78 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370093361,"level":"warn","data":["Level 80 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370093362,"level":"warn","data":["Level 81 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370093362,"level":"warn","data":["Level 82 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370093362,"level":"warn","data":["Level 84 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370093362,"level":"warn","data":["Level 87 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370093362,"level":"warn","data":["Level 88 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370093362,"level":"warn","data":["Level 90 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370093362,"level":"warn","data":["Level 92 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370093362,"level":"warn","data":["Level 93 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370093363,"level":"warn","data":["Level 95 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370093363,"level":"warn","data":["Level 96 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370093363,"level":"warn","data":["Level 97 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370093363,"level":"warn","data":["Level 102 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370093363,"level":"warn","data":["Level 103 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370093363,"level":"warn","data":["Level 104 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370093364,"level":"warn","data":["Level 105 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370093364,"level":"warn","data":["Level 107 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370093364,"level":"warn","data":["Level 108 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370093364,"level":"warn","data":["Level 110 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370093364,"level":"warn","data":["Level 111 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370093364,"level":"warn","data":["Level 112 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370093364,"level":"warn","data":["Level 114 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370093364,"level":"warn","data":["Level 117 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370093365,"level":"warn","data":["Level 118 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370093365,"level":"warn","data":["Level 120 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370093365,"level":"warn","data":["Level 122 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370093365,"level":"warn","data":["Level 123 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370093365,"level":"warn","data":["Level 125 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370093365,"level":"warn","data":["Level 126 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370093365,"level":"warn","data":["Level 127 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370093366,"level":"warn","data":["Level 132 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370093366,"level":"warn","data":["Level 133 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370093366,"level":"warn","data":["Level 134 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370093366,"level":"warn","data":["Level 135 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370093366,"level":"warn","data":["Level 137 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370093366,"level":"warn","data":["Level 138 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370093366,"level":"warn","data":["Level 140 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370093366,"level":"warn","data":["Level 141 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370093367,"level":"warn","data":["Level 142 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370093367,"level":"warn","data":["Level 144 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370093367,"level":"warn","data":["Level 147 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370093367,"level":"warn","data":["Level 148 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370093368,"level":"warn","data":["Level 150 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370093368,"level":"warn","data":["Level 152 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370093368,"level":"warn","data":["Level 153 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370093368,"level":"warn","data":["Level 155 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370093368,"level":"warn","data":["Level 156 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370093368,"level":"warn","data":["Level 157 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370093369,"level":"warn","data":["Level 162 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370093369,"level":"warn","data":["Level 163 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370093369,"level":"warn","data":["Level 164 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370093369,"level":"warn","data":["Level 165 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370093369,"level":"warn","data":["Level 167 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370093370,"level":"warn","data":["Level 168 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370093370,"level":"warn","data":["Level 170 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370093370,"level":"warn","data":["Level 171 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370093370,"level":"warn","data":["Level 172 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370093370,"level":"warn","data":["Level 174 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370093372,"level":"warn","data":["Level 177 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370093372,"level":"warn","data":["Level 178 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370093372,"level":"warn","data":["Level 180 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370093372,"level":"warn","data":["Level 182 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370093373,"level":"warn","data":["Level 183 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370093373,"level":"warn","data":["Level 185 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370093373,"level":"warn","data":["Level 186 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370093373,"level":"warn","data":["Level 187 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370093373,"level":"warn","data":["Level 192 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370093373,"level":"warn","data":["Level 193 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370093373,"level":"warn","data":["Level 194 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370093373,"level":"warn","data":["Level 195 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370093374,"level":"warn","data":["Level 197 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370093374,"level":"warn","data":["Level 198 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370093374,"level":"warn","data":["Level 200 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370120493,"level":"warn","data":["Level 47 invalid: grid has 25 paintable cells but shapes need 23"]}
+{"_e":"metro:client_log","_t":1783370120496,"level":"warn","data":["Level 51 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370120496,"level":"warn","data":["Level 52 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370120497,"level":"warn","data":["Level 54 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370120497,"level":"warn","data":["Level 57 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370120497,"level":"warn","data":["Level 58 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370120497,"level":"warn","data":["Level 60 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370120497,"level":"warn","data":["Level 62 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370120497,"level":"warn","data":["Level 63 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370120498,"level":"warn","data":["Level 65 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370120498,"level":"warn","data":["Level 66 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370120498,"level":"warn","data":["Level 67 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370120498,"level":"warn","data":["Level 72 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370120498,"level":"warn","data":["Level 73 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370120498,"level":"warn","data":["Level 74 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370120499,"level":"warn","data":["Level 75 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370120499,"level":"warn","data":["Level 77 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370120499,"level":"warn","data":["Level 78 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370120499,"level":"warn","data":["Level 80 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370120499,"level":"warn","data":["Level 81 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370120499,"level":"warn","data":["Level 82 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370120499,"level":"warn","data":["Level 84 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370120499,"level":"warn","data":["Level 87 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370120500,"level":"warn","data":["Level 88 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370120500,"level":"warn","data":["Level 90 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370120500,"level":"warn","data":["Level 92 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370120500,"level":"warn","data":["Level 93 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370120500,"level":"warn","data":["Level 95 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370120500,"level":"warn","data":["Level 96 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370120500,"level":"warn","data":["Level 97 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370120501,"level":"warn","data":["Level 102 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370120501,"level":"warn","data":["Level 103 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370120501,"level":"warn","data":["Level 104 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370120501,"level":"warn","data":["Level 105 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370120501,"level":"warn","data":["Level 107 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370120501,"level":"warn","data":["Level 108 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370120501,"level":"warn","data":["Level 110 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370120501,"level":"warn","data":["Level 111 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370120502,"level":"warn","data":["Level 112 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370120502,"level":"warn","data":["Level 114 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370120502,"level":"warn","data":["Level 117 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370120502,"level":"warn","data":["Level 118 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370120502,"level":"warn","data":["Level 120 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370120502,"level":"warn","data":["Level 122 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370120502,"level":"warn","data":["Level 123 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370120503,"level":"warn","data":["Level 125 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370120503,"level":"warn","data":["Level 126 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370120503,"level":"warn","data":["Level 127 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370120503,"level":"warn","data":["Level 132 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370120503,"level":"warn","data":["Level 133 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370120503,"level":"warn","data":["Level 134 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370120503,"level":"warn","data":["Level 135 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370120503,"level":"warn","data":["Level 137 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370120504,"level":"warn","data":["Level 138 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370120504,"level":"warn","data":["Level 140 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370120504,"level":"warn","data":["Level 141 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370120504,"level":"warn","data":["Level 142 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370120504,"level":"warn","data":["Level 144 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370120504,"level":"warn","data":["Level 147 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370120504,"level":"warn","data":["Level 148 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370120504,"level":"warn","data":["Level 150 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370120504,"level":"warn","data":["Level 152 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370120505,"level":"warn","data":["Level 153 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370120505,"level":"warn","data":["Level 155 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370120505,"level":"warn","data":["Level 156 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370120505,"level":"warn","data":["Level 157 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370120505,"level":"warn","data":["Level 162 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370120505,"level":"warn","data":["Level 163 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370120505,"level":"warn","data":["Level 164 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370120506,"level":"warn","data":["Level 165 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370120506,"level":"warn","data":["Level 167 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370120506,"level":"warn","data":["Level 168 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370120506,"level":"warn","data":["Level 170 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370120506,"level":"warn","data":["Level 171 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370120506,"level":"warn","data":["Level 172 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370120506,"level":"warn","data":["Level 174 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370120506,"level":"warn","data":["Level 177 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370120506,"level":"warn","data":["Level 178 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370120507,"level":"warn","data":["Level 180 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370120507,"level":"warn","data":["Level 182 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370120507,"level":"warn","data":["Level 183 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370120507,"level":"warn","data":["Level 185 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370120507,"level":"warn","data":["Level 186 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370120507,"level":"warn","data":["Level 187 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370120508,"level":"warn","data":["Level 192 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370120508,"level":"warn","data":["Level 193 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370120508,"level":"warn","data":["Level 194 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370120508,"level":"warn","data":["Level 195 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370120508,"level":"warn","data":["Level 197 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370120509,"level":"warn","data":["Level 198 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370120509,"level":"warn","data":["Level 200 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"root:init","_t":1783370227735,"format":"v0-jsonl","version":"57.0.4"}
+{"_e":"env:mode","_t":1783370227736,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1783370227737,"mode":"development","files":[],"env":{}}
+{"_e":"metro:client_log","_t":1783370278919,"level":"warn","data":["Level 47 invalid: grid has 25 paintable cells but shapes need 23"]}
+{"_e":"metro:client_log","_t":1783370278923,"level":"warn","data":["Level 51 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370278924,"level":"warn","data":["Level 52 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370278924,"level":"warn","data":["Level 54 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370278924,"level":"warn","data":["Level 57 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370278924,"level":"warn","data":["Level 58 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370278924,"level":"warn","data":["Level 60 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370278925,"level":"warn","data":["Level 62 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370278925,"level":"warn","data":["Level 63 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370278926,"level":"warn","data":["Level 65 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370278926,"level":"warn","data":["Level 66 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370278926,"level":"warn","data":["Level 67 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370278926,"level":"warn","data":["Level 72 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370278926,"level":"warn","data":["Level 73 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370278926,"level":"warn","data":["Level 74 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370278926,"level":"warn","data":["Level 75 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370278927,"level":"warn","data":["Level 77 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370278927,"level":"warn","data":["Level 78 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370278927,"level":"warn","data":["Level 80 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370278927,"level":"warn","data":["Level 81 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370278927,"level":"warn","data":["Level 82 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370278927,"level":"warn","data":["Level 84 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370278927,"level":"warn","data":["Level 87 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370278927,"level":"warn","data":["Level 88 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370278927,"level":"warn","data":["Level 90 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370278927,"level":"warn","data":["Level 92 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370278927,"level":"warn","data":["Level 93 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370278927,"level":"warn","data":["Level 95 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370278928,"level":"warn","data":["Level 96 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370278928,"level":"warn","data":["Level 97 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370278928,"level":"warn","data":["Level 102 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370278928,"level":"warn","data":["Level 103 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370278928,"level":"warn","data":["Level 104 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370278928,"level":"warn","data":["Level 105 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370278928,"level":"warn","data":["Level 107 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370278929,"level":"warn","data":["Level 108 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370278929,"level":"warn","data":["Level 110 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370278929,"level":"warn","data":["Level 111 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370278929,"level":"warn","data":["Level 112 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370278929,"level":"warn","data":["Level 114 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370278929,"level":"warn","data":["Level 117 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370278929,"level":"warn","data":["Level 118 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370278930,"level":"warn","data":["Level 120 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370278930,"level":"warn","data":["Level 122 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370278930,"level":"warn","data":["Level 123 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370278930,"level":"warn","data":["Level 125 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370278930,"level":"warn","data":["Level 126 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370278930,"level":"warn","data":["Level 127 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370278930,"level":"warn","data":["Level 132 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370278930,"level":"warn","data":["Level 133 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370278930,"level":"warn","data":["Level 134 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370278931,"level":"warn","data":["Level 135 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370278931,"level":"warn","data":["Level 137 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370278931,"level":"warn","data":["Level 138 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370278931,"level":"warn","data":["Level 140 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370278931,"level":"warn","data":["Level 141 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370278931,"level":"warn","data":["Level 142 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370278931,"level":"warn","data":["Level 144 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370278931,"level":"warn","data":["Level 147 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370278932,"level":"warn","data":["Level 148 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370278932,"level":"warn","data":["Level 150 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370278932,"level":"warn","data":["Level 152 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370278932,"level":"warn","data":["Level 153 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370278932,"level":"warn","data":["Level 155 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370278933,"level":"warn","data":["Level 156 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370278933,"level":"warn","data":["Level 157 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370278933,"level":"warn","data":["Level 162 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370278933,"level":"warn","data":["Level 163 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370278933,"level":"warn","data":["Level 164 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370278933,"level":"warn","data":["Level 165 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370278933,"level":"warn","data":["Level 167 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370278933,"level":"warn","data":["Level 168 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370278933,"level":"warn","data":["Level 170 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370278933,"level":"warn","data":["Level 171 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370278933,"level":"warn","data":["Level 172 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370278934,"level":"warn","data":["Level 174 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370278934,"level":"warn","data":["Level 177 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370278934,"level":"warn","data":["Level 178 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370278934,"level":"warn","data":["Level 180 invalid: grid has 29 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370278934,"level":"warn","data":["Level 182 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370278935,"level":"warn","data":["Level 183 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370278935,"level":"warn","data":["Level 185 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370278935,"level":"warn","data":["Level 186 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370278935,"level":"warn","data":["Level 187 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370278935,"level":"warn","data":["Level 192 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783370278935,"level":"warn","data":["Level 193 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783370278935,"level":"warn","data":["Level 194 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370278935,"level":"warn","data":["Level 195 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370278936,"level":"warn","data":["Level 197 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783370278936,"level":"warn","data":["Level 198 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783370278936,"level":"warn","data":["Level 200 invalid: grid has 35 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783370333360,"level":"warn","data":["Level 47 invalid: grid has 25 paintable cells but shapes need 23"]}
+{"_e":"metro:client_log","_t":1783370356946,"level":"log","data":["✓ All levels validated successfully"]}
+{"_e":"metro:client_log","_t":1783371265832,"level":"log","data":["All 200 levels validated successfully"]}
+{"_e":"metro:bundling:failed","_t":1783371796375,"id":null,"message":"Unable to resolve \"../../../assets/sounds/tap.mp3\" from \"src/game/SoundManager.ts\"\n  32 |\n  33 |     const soundFiles: Record<SoundType, any> = {\n> 34 |       tap: require('../../../assets/sounds/tap.mp3'),\n     |                     ^\n  35 |       success: require('../../../assets/sounds/success.mp3'),\n  36 |       error: require('../../../assets/sounds/error.mp3'),\n  37 |       click: require('../../../assets/sounds/click.mp3'),","importStack":"Import stack:\n\n src/game/SoundManager.ts\n | import \"../../../assets/sounds/tap.mp3\"\n\n src/game/index.ts\n | import \"./SoundManager\"\n\n App.tsx\n | import \"./src/game\"\n\n \n | import \"./App\"\n","filename":null,"targetModuleName":"../../../assets/sounds/tap.mp3","originModulePath":"src/game/SoundManager.ts"}
+{"_e":"metro:bundling:failed","_t":1783371802672,"id":null,"message":"Unable to resolve \"../../../assets/sounds/background-music.mp3\" from \"src/game/SoundManager.ts\"\n  89 |       if (!this.backgroundMusic) {\n  90 |         const { sound } = await Audio.Sound.createAsync(\n> 91 |           require('../../../assets/sounds/background-music.mp3'),\n     |                    ^\n  92 |           { shouldPlay: true, isLooping: true, volume: 0.3 }\n  93 |         );\n  94 |         this.backgroundMusic = sound;","importStack":"Import stack:\n\n src/game/SoundManager.ts\n | import \"../../../assets/sounds/background-music.mp3\"\n\n src/game/index.ts\n | import \"./SoundManager\"\n\n App.tsx\n | import \"./src/game\"\n\n \n | import \"./App\"\n","filename":null,"targetModuleName":"../../../assets/sounds/background-music.mp3","originModulePath":"src/game/SoundManager.ts"}
+{"_e":"metro:client_log","_t":1783371807062,"level":"error","data":["[Error: Cannot find native module 'ExponentAV']"]}
+{"_e":"metro:client_log","_t":1783374850149,"level":"error","data":["[Error: Expected newLocale to be a string; got undefined]"]}
+{"_e":"metro:client_log","_t":1783374852523,"level":"error","data":["[Error: Expected newLocale to be a string; got undefined]"]}
+{"_e":"metro:client_log","_t":1783374856150,"level":"error","data":["[Error: Expected newLocale to be a string; got undefined]"]}
+{"_e":"metro:client_log","_t":1783374864094,"level":"error","data":["[Error: Expected newLocale to be a string; got undefined]"]}
+{"_e":"metro:client_log","_t":1783374868815,"level":"error","data":["[Error: Expected newLocale to be a string; got undefined]"]}
+{"_e":"metro:client_log","_t":1783374886368,"level":"error","data":["[Error: Expected newLocale to be a string; got undefined]"]}
+{"_e":"metro:client_log","_t":1783374901135,"level":"error","data":["[Error: Expected newLocale to be a string; got undefined]"]}
+{"_e":"metro:client_log","_t":1783374906048,"level":"error","data":["[Error: Expected newLocale to be a string; got undefined]"]}
+{"_e":"metro:client_log","_t":1783374909907,"level":"error","data":["[Error: Expected newLocale to be a string; got undefined]"]}
+{"_e":"metro:client_log","_t":1783374918930,"level":"error","data":["[Error: Expected newLocale to be a string; got undefined]"]}
+{"_e":"metro:client_log","_t":1783374928542,"level":"error","data":["[Error: Expected newLocale to be a string; got undefined]"]}
+{"_e":"metro:client_log","_t":1783374957137,"level":"error","data":["[Error: Expected newLocale to be a string; got undefined]"]}
+{"_e":"metro:client_log","_t":1783374966028,"level":"error","data":["[Error: Expected newLocale to be a string; got undefined]"]}
+{"_e":"metro:client_log","_t":1783374969693,"level":"error","data":["[Error: Expected newLocale to be a string; got undefined]"]}
+{"_e":"metro:client_log","_t":1783374973250,"level":"error","data":["[Error: Expected newLocale to be a string; got undefined]"]}
+{"_e":"metro:client_log","_t":1783374978563,"level":"error","data":["[Error: Expected newLocale to be a string; got undefined]"]}
+{"_e":"metro:client_log","_t":1783374982453,"level":"error","data":["[Error: Expected newLocale to be a string; got undefined]"]}
+{"_e":"metro:client_log","_t":1783374987571,"level":"error","data":["[Error: Expected newLocale to be a string; got undefined]"]}
+{"_e":"metro:client_log","_t":1783375005514,"level":"error","data":["[Error: Expected newLocale to be a string; got undefined]"]}
+{"_e":"metro:client_log","_t":1783375009481,"level":"error","data":["[Error: Expected newLocale to be a string; got undefined]"]}
+{"_e":"metro:client_log","_t":1783375014069,"level":"error","data":["[Error: Expected newLocale to be a string; got undefined]"]}
+{"_e":"metro:client_log","_t":1783375018420,"level":"error","data":["[Error: Expected newLocale to be a string; got undefined]"]}
+{"_e":"metro:client_log","_t":1783375023597,"level":"error","data":["[Error: Expected newLocale to be a string; got undefined]"]}
+{"_e":"metro:client_log","_t":1783375033503,"level":"error","data":["[Error: Expected newLocale to be a string; got undefined]"]}
+{"_e":"metro:server_log","_t":1783378788192,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783379748763,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783380991779,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783382042714,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783384053981,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783385777479,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783386861594,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783388903406,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783390937835,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783393034382,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783394965209,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783396622143,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783398706069,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783400326030,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783401990155,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783403025950,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783404229916,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783406374949,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783407598816,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783408477517,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783409423774,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783410182177,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783411285706,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783413209676,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783414055623,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783415242598,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783417324543,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783419006276,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783419630178,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783420614440,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783421092267,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783421315514,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783422264390,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783423335768,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783424092826,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783424747799,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783425707298,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783427715226,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783429463206,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783431476283,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783432057141,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783432719655,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783433351675,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783434438046,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783435712948,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783436787994,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783438476719,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783439591907,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783441309239,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783441637091,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783442008410,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783442398823,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783443022086,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783443976775,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783444777534,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783452133253,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:server_log","_t":1783452591425,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 16e","60"]}
+{"_e":"metro:bundling:started","_t":1783454111657,"id":"3l","platform":"ios","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:done","_t":1783454111755,"id":"3l","total":1,"ms":97.685667}
+{"_e":"metro:client_log","_t":1783454112542,"level":"warn","data":["No native ExponentConstants module found, are you sure the expo-constants's module is linked properly?"]}
+{"_e":"metro:client_log","_t":1783454112542,"level":"error","data":["[runtime not ready]: Error: Cannot find native module 'ExpoAsset'"]}
+{"_e":"metro:client_log","_t":1783454112542,"level":"error","data":["[runtime not ready]: Invariant Violation: \"main\" has not been registered. This can happen if:\n* Metro (the local dev server) is run from the wrong folder. Check if Metro is running, stop it and restart it in the current project.\n* A module failed to load due to an error and `AppRegistry.registerComponent` wasn't called."]}
+{"_e":"metro:client_log","_t":1783454383618,"level":"error","data":["[runtime not ready]: Error: Non-js exception: AppRegistryBinding::stopSurface failed. Global was not installed."]}
+{"_e":"metro:bundling:started","_t":1783454383668,"id":"3m","platform":"ios","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:done","_t":1783454383722,"id":"3m","total":1,"ms":53.249}
+{"_e":"metro:client_log","_t":1783454384232,"level":"warn","data":["Level 53 invalid: grid has 18 paintable cells but shapes need 17"]}
+{"_e":"metro:client_log","_t":1783454384232,"level":"warn","data":["Level 65 invalid: grid has 18 paintable cells but shapes need 17"]}
+{"_e":"metro:client_log","_t":1783454384232,"level":"warn","data":["Level 77 invalid: grid has 18 paintable cells but shapes need 17"]}
+{"_e":"metro:client_log","_t":1783454384232,"level":"warn","data":["Level 89 invalid: grid has 18 paintable cells but shapes need 17"]}
+{"_e":"metro:client_log","_t":1783454384232,"level":"warn","data":["Level 101 invalid: grid has 18 paintable cells but shapes need 17"]}
+{"_e":"metro:client_log","_t":1783454384232,"level":"warn","data":["Level 113 invalid: grid has 18 paintable cells but shapes need 17"]}
+{"_e":"metro:client_log","_t":1783454384233,"level":"warn","data":["Level 125 invalid: grid has 18 paintable cells but shapes need 17"]}
+{"_e":"metro:client_log","_t":1783454384233,"level":"warn","data":["Level 137 invalid: grid has 18 paintable cells but shapes need 17"]}
+{"_e":"metro:client_log","_t":1783454384233,"level":"warn","data":["Level 149 invalid: grid has 18 paintable cells but shapes need 17"]}
+{"_e":"metro:client_log","_t":1783454384234,"level":"warn","data":["Level 161 invalid: grid has 18 paintable cells but shapes need 17"]}
+{"_e":"metro:client_log","_t":1783454384234,"level":"warn","data":["Level 173 invalid: grid has 18 paintable cells but shapes need 17"]}
+{"_e":"metro:client_log","_t":1783454384234,"level":"warn","data":["Level 185 invalid: grid has 18 paintable cells but shapes need 17"]}
+{"_e":"metro:client_log","_t":1783454384234,"level":"warn","data":["Level 197 invalid: grid has 18 paintable cells but shapes need 17"]}
+{"_e":"metro:client_log","_t":1783454384287,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:bundling:started","_t":1783454387979,"id":"3o","platform":"ios","environment":null,"entry":"node_modules/expo-audio/build/index.js"}
+{"_e":"metro:bundling:done","_t":1783454388432,"id":"3o","total":711,"ms":451.212208}
+{"_e":"metro:client_log","_t":1783454480525,"level":"log","data":["Error loading progress:","[TypeError: undefined is not a function]"]}
+{"_e":"metro:bundling:started","_t":1783454492262,"id":"4c","platform":"ios","environment":null,"entry":"node_modules/expo-audio/build/index.js"}
+{"_e":"metro:bundling:done","_t":1783454492283,"id":"4c","total":1,"ms":21.138417}
+{"_e":"metro:client_log","_t":1783454605650,"level":"warn","data":["Level 52 invalid: grid has 15 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783454605652,"level":"warn","data":["Level 53 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783454605652,"level":"warn","data":["Level 54 invalid: grid has 21 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605653,"level":"warn","data":["Level 55 invalid: grid has 19 paintable cells but shapes need 17"]}
+{"_e":"metro:client_log","_t":1783454605653,"level":"warn","data":["Level 56 invalid: grid has 21 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605653,"level":"warn","data":["Level 57 invalid: grid has 21 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783454605653,"level":"warn","data":["Level 58 invalid: grid has 20 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783454605653,"level":"warn","data":["Level 59 invalid: grid has 14 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783454605653,"level":"warn","data":["Level 61 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783454605653,"level":"warn","data":["Level 62 invalid: grid has 21 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605654,"level":"warn","data":["Level 64 invalid: grid has 25 paintable cells but shapes need 27"]}
+{"_e":"metro:client_log","_t":1783454605654,"level":"warn","data":["Level 65 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605654,"level":"warn","data":["Level 67 invalid: grid has 19 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783454605654,"level":"warn","data":["Level 68 invalid: grid has 21 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605654,"level":"warn","data":["Level 69 invalid: grid has 21 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605654,"level":"warn","data":["Level 70 invalid: grid has 26 paintable cells but shapes need 28"]}
+{"_e":"metro:client_log","_t":1783454605654,"level":"warn","data":["Level 73 invalid: grid has 16 paintable cells but shapes need 18"]}
+{"_e":"metro:client_log","_t":1783454605655,"level":"warn","data":["Level 74 invalid: grid has 21 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605655,"level":"warn","data":["Level 76 invalid: grid has 19 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605655,"level":"warn","data":["Level 77 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605655,"level":"warn","data":["Level 79 invalid: grid has 19 paintable cells but shapes need 18"]}
+{"_e":"metro:client_log","_t":1783454605655,"level":"warn","data":["Level 80 invalid: grid has 27 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783454605655,"level":"warn","data":["Level 82 invalid: grid has 26 paintable cells but shapes need 28"]}
+{"_e":"metro:client_log","_t":1783454605655,"level":"warn","data":["Level 83 invalid: grid has 14 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783454605656,"level":"warn","data":["Level 84 invalid: grid has 21 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605656,"level":"warn","data":["Level 85 invalid: grid has 20 paintable cells but shapes need 22"]}
+{"_e":"metro:client_log","_t":1783454605656,"level":"warn","data":["Level 86 invalid: grid has 27 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783454605656,"level":"warn","data":["Level 88 invalid: grid has 19 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605656,"level":"warn","data":["Level 89 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605656,"level":"warn","data":["Level 91 invalid: grid has 23 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605656,"level":"warn","data":["Level 92 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605657,"level":"warn","data":["Level 93 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783454605657,"level":"warn","data":["Level 95 invalid: grid has 14 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783454605657,"level":"warn","data":["Level 96 invalid: grid has 21 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605657,"level":"warn","data":["Level 98 invalid: grid has 17 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783454605657,"level":"warn","data":["Level 99 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783454605657,"level":"warn","data":["Level 100 invalid: grid has 15 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783454605657,"level":"warn","data":["Level 101 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783454605658,"level":"warn","data":["Level 103 invalid: grid has 24 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605658,"level":"warn","data":["Level 106 invalid: grid has 21 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783454605658,"level":"warn","data":["Level 107 invalid: grid has 18 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783454605658,"level":"warn","data":["Level 110 invalid: grid has 27 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783454605658,"level":"warn","data":["Level 112 invalid: grid has 31 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783454605660,"level":"warn","data":["Level 113 invalid: grid has 28 paintable cells but shapes need 27"]}
+{"_e":"metro:client_log","_t":1783454605660,"level":"warn","data":["Level 114 invalid: grid has 21 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605660,"level":"warn","data":["Level 115 invalid: grid has 19 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783454605660,"level":"warn","data":["Level 116 invalid: grid has 17 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783454605660,"level":"warn","data":["Level 118 invalid: grid has 21 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605660,"level":"warn","data":["Level 119 invalid: grid has 24 paintable cells but shapes need 28"]}
+{"_e":"metro:client_log","_t":1783454605660,"level":"warn","data":["Level 120 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783454605660,"level":"warn","data":["Level 122 invalid: grid has 17 paintable cells but shapes need 18"]}
+{"_e":"metro:client_log","_t":1783454605660,"level":"warn","data":["Level 124 invalid: grid has 15 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783454605660,"level":"warn","data":["Level 125 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605660,"level":"warn","data":["Level 126 invalid: grid has 21 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605660,"level":"warn","data":["Level 127 invalid: grid has 19 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783454605660,"level":"warn","data":["Level 128 invalid: grid has 17 paintable cells but shapes need 18"]}
+{"_e":"metro:client_log","_t":1783454605660,"level":"warn","data":["Level 129 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783454605660,"level":"warn","data":["Level 131 invalid: grid has 24 paintable cells but shapes need 28"]}
+{"_e":"metro:client_log","_t":1783454605661,"level":"warn","data":["Level 133 invalid: grid has 21 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605661,"level":"warn","data":["Level 134 invalid: grid has 21 paintable cells but shapes need 22"]}
+{"_e":"metro:client_log","_t":1783454605661,"level":"warn","data":["Level 135 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783454605661,"level":"warn","data":["Level 136 invalid: grid has 15 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783454605661,"level":"warn","data":["Level 137 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605661,"level":"warn","data":["Level 138 invalid: grid has 21 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605661,"level":"warn","data":["Level 139 invalid: grid has 24 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783454605661,"level":"warn","data":["Level 140 invalid: grid has 21 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605662,"level":"warn","data":["Level 141 invalid: grid has 21 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605662,"level":"warn","data":["Level 142 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783454605662,"level":"warn","data":["Level 143 invalid: grid has 18 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605662,"level":"warn","data":["Level 145 invalid: grid has 21 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605662,"level":"warn","data":["Level 146 invalid: grid has 21 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605662,"level":"warn","data":["Level 148 invalid: grid has 25 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783454605662,"level":"warn","data":["Level 149 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783454605662,"level":"warn","data":["Level 151 invalid: grid has 19 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783454605663,"level":"warn","data":["Level 152 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605663,"level":"warn","data":["Level 153 invalid: grid has 16 paintable cells but shapes need 17"]}
+{"_e":"metro:client_log","_t":1783454605663,"level":"warn","data":["Level 155 invalid: grid has 19 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783454605663,"level":"warn","data":["Level 156 invalid: grid has 20 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783454605663,"level":"warn","data":["Level 158 invalid: grid has 25 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783454605663,"level":"warn","data":["Level 159 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783454605663,"level":"warn","data":["Level 160 invalid: grid has 19 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605663,"level":"warn","data":["Level 161 invalid: grid has 34 paintable cells but shapes need 32"]}
+{"_e":"metro:client_log","_t":1783454605664,"level":"warn","data":["Level 162 invalid: grid has 26 paintable cells but shapes need 27"]}
+{"_e":"metro:client_log","_t":1783454605664,"level":"warn","data":["Level 163 invalid: grid has 24 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605664,"level":"warn","data":["Level 164 invalid: grid has 17 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783454605664,"level":"warn","data":["Level 167 invalid: grid has 19 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605664,"level":"warn","data":["Level 168 invalid: grid has 26 paintable cells but shapes need 28"]}
+{"_e":"metro:client_log","_t":1783454605664,"level":"warn","data":["Level 169 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783454605664,"level":"warn","data":["Level 170 invalid: grid has 21 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605664,"level":"warn","data":["Level 171 invalid: grid has 16 paintable cells but shapes need 18"]}
+{"_e":"metro:client_log","_t":1783454605665,"level":"warn","data":["Level 172 invalid: grid has 19 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605665,"level":"warn","data":["Level 173 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783454605665,"level":"warn","data":["Level 175 invalid: grid has 24 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605665,"level":"warn","data":["Level 176 invalid: grid has 17 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783454605665,"level":"warn","data":["Level 177 invalid: grid has 16 paintable cells but shapes need 18"]}
+{"_e":"metro:client_log","_t":1783454605665,"level":"warn","data":["Level 178 invalid: grid has 26 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783454605666,"level":"warn","data":["Level 179 invalid: grid has 14 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783454605666,"level":"warn","data":["Level 180 invalid: grid has 26 paintable cells but shapes need 28"]}
+{"_e":"metro:client_log","_t":1783454605666,"level":"warn","data":["Level 182 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605666,"level":"warn","data":["Level 183 invalid: grid has 20 paintable cells but shapes need 22"]}
+{"_e":"metro:client_log","_t":1783454605666,"level":"warn","data":["Level 184 invalid: grid has 25 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783454605666,"level":"warn","data":["Level 185 invalid: grid has 18 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783454605666,"level":"warn","data":["Level 187 invalid: grid has 24 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605666,"level":"warn","data":["Level 188 invalid: grid has 22 paintable cells but shapes need 21"]}
+{"_e":"metro:client_log","_t":1783454605667,"level":"warn","data":["Level 190 invalid: grid has 21 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605667,"level":"warn","data":["Level 194 invalid: grid has 22 paintable cells but shapes need 20"]}
+{"_e":"metro:client_log","_t":1783454605667,"level":"warn","data":["Level 196 invalid: grid has 15 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783454605667,"level":"warn","data":["Level 197 invalid: grid has 28 paintable cells but shapes need 24"]}
+{"_e":"metro:client_log","_t":1783454605667,"level":"warn","data":["Level 199 invalid: grid has 19 paintable cells but shapes need 16"]}
+{"_e":"metro:client_log","_t":1783454605667,"level":"warn","data":["Level 200 invalid: grid has 17 paintable cells but shapes need 16"]}

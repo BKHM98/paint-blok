@@ -1,0 +1,40 @@
+appId: host.exp.Exponent
+---
+# Test Painting Functionality
+- launchApp
+
+# Wait for Expo Go to load
+- waitForAnimationToEnd:
+    timeout: 5000
+
+# Tap on PuzzleApp in development servers
+- tapOn:
+    text: "PuzzleApp"
+    index: 0
+
+# Wait for our app to load
+- waitForAnimationToEnd:
+    timeout: 8000
+
+# Select Level 1 (First Steps)
+- tapOn:
+    point: "50%, 35%"
+
+# Wait for game to load
+- waitForAnimationToEnd:
+    timeout: 3000
+
+# Test painting by swiping across the grid area (grid is around 50-55% vertically)
+- swipe:
+    start: "30%, 55%"
+    end: "70%, 55%"
+    duration: 500
+
+# Another swipe to paint more
+- swipe:
+    start: "30%, 60%"
+    end: "70%, 60%"
+    duration: 500
+
+# Take a screenshot to verify painting
+- takeScreenshot: "after_painting"

@@ -1,0 +1,45 @@
+appId: host.exp.Exponent
+---
+# Test Clear Functionality
+- launchApp
+
+# Wait for Expo Go to load
+- waitForAnimationToEnd:
+    timeout: 5000
+
+# Tap on PuzzleApp in development servers
+- tapOn:
+    text: "PuzzleApp"
+    index: 0
+
+# Wait for our app to load
+- waitForAnimationToEnd:
+    timeout: 8000
+
+# Select Level 1 (First Steps)
+- tapOn:
+    point: "50%, 35%"
+
+# Wait for game to load
+- waitForAnimationToEnd:
+    timeout: 3000
+
+# Paint some cells
+- swipe:
+    start: "30%, 55%"
+    end: "70%, 55%"
+    duration: 500
+
+# Screenshot before clear
+- takeScreenshot: "before_clear"
+
+# Tap Clear button (bottom right area)
+- tapOn:
+    point: "65%, 92%"
+
+# Wait for clear
+- waitForAnimationToEnd:
+    timeout: 2000
+
+# Take screenshot to verify grid is cleared
+- takeScreenshot: "after_clear"

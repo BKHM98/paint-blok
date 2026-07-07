@@ -1,0 +1,47 @@
+appId: host.exp.Exponent
+---
+# Test Back Navigation
+- launchApp
+
+# Wait for Expo Go to fully load
+- waitForAnimationToEnd:
+    timeout: 5000
+
+# Tap on PuzzleApp in development servers
+- tapOn:
+    text: "PuzzleApp"
+    index: 0
+
+# Wait longer for our app to fully load (dismiss splash)
+- waitForAnimationToEnd:
+    timeout: 10000
+
+# Tap anywhere to dismiss any overlays
+- tapOn:
+    point: "50%, 50%"
+
+# Wait for overlay to dismiss
+- waitForAnimationToEnd:
+    timeout: 2000
+
+# Now tap on Level 1 (First Steps)
+- tapOn:
+    point: "50%, 35%"
+
+# Wait for game to load
+- waitForAnimationToEnd:
+    timeout: 5000
+
+# Take screenshot to see current state
+- takeScreenshot: "game_screen"
+
+# Tap back button (top left)
+- tapOn:
+    point: "13%, 8%"
+
+# Wait for navigation
+- waitForAnimationToEnd:
+    timeout: 2000
+
+# Take final screenshot
+- takeScreenshot: "back_to_level_select"
