@@ -997,7 +997,7 @@ export default function App() {
     }
 
     // If game has started (player has painted), confirm and lose life
-    if (levelStartTime && history.length > 0) {
+    if (levelStartTime || historyRef.current.length > 0) {
       Alert.alert(
         'Quit Level?',
         'You will lose a life if you quit now.',
@@ -1020,7 +1020,7 @@ export default function App() {
       // Level not started yet, no life lost
       resetGameState();
     }
-  }, [doHaptic, gameMode, levelStartTime, history.length]);
+  }, [doHaptic, gameMode, levelStartTime]);
 
   // Tutorial screen (shows for first-time users)
   if (currentScreen === 'tutorial' || (!isLoading && !playerProgress.hasSeenTutorial && currentScreen === 'home')) {
