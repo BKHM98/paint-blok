@@ -418,7 +418,10 @@ const LEVEL_16: Level = {
   activeCells: rect(5, 4),
   lockedCells: [],
   blockedCells: VERIFIED_BLOCKED[16],
-  requiredShapes: [{ shape: TETROMINO_L, required: 4, placed: 0 }],
+  requiredShapes: [
+    { shape: TETROMINO_L, required: 2, placed: 0 },
+    { shape: TETROMINO_J, required: 2, placed: 0 },
+  ],
   difficulty: 2,
 };
 
@@ -430,7 +433,10 @@ const LEVEL_17: Level = {
   activeCells: rect(4, 5),
   lockedCells: [],
   blockedCells: VERIFIED_BLOCKED[17],
-  requiredShapes: [{ shape: TETROMINO_O, required: 4, placed: 0 }],
+  requiredShapes: [
+    { shape: TETROMINO_O, required: 2, placed: 0 },
+    { shape: TETROMINO_T, required: 2, placed: 0 },
+  ],
   difficulty: 2,
 };
 
@@ -442,7 +448,10 @@ const LEVEL_18: Level = {
   activeCells: rect(5, 4),
   lockedCells: [],
   blockedCells: VERIFIED_BLOCKED[18],
-  requiredShapes: [{ shape: TETROMINO_L, required: 4, placed: 0 }],
+  requiredShapes: [
+    { shape: TETROMINO_S, required: 2, placed: 0 },
+    { shape: TETROMINO_Z, required: 2, placed: 0 },
+  ],
   difficulty: 2,
 };
 
@@ -734,9 +743,9 @@ const LEVEL_37: Level = {
   lockedCells: [],
   blockedCells: VERIFIED_BLOCKED[37],
   requiredShapes: [
-    { shape: TETROMINO_L, required: 2, placed: 0 },
+    { shape: TETROMINO_S, required: 2, placed: 0 },
+    { shape: TETROMINO_Z, required: 2, placed: 0 },
     { shape: TETROMINO_O, required: 1, placed: 0 },
-    { shape: TETROMINO_T, required: 2, placed: 0 },
   ],
   difficulty: 3,
 };
@@ -750,9 +759,9 @@ const LEVEL_38: Level = {
   lockedCells: [],
   blockedCells: VERIFIED_BLOCKED[38],
   requiredShapes: [
+    { shape: TETROMINO_J, required: 2, placed: 0 },
     { shape: TETROMINO_L, required: 2, placed: 0 },
     { shape: TETROMINO_O, required: 1, placed: 0 },
-    { shape: TETROMINO_T, required: 2, placed: 0 },
   ],
   difficulty: 3,
 };
@@ -766,9 +775,9 @@ const LEVEL_39: Level = {
   lockedCells: [],
   blockedCells: VERIFIED_BLOCKED[39],
   requiredShapes: [
-    { shape: TETROMINO_L, required: 2, placed: 0 },
-    { shape: TETROMINO_O, required: 1, placed: 0 },
+    { shape: TETROMINO_I, required: 2, placed: 0 },
     { shape: TETROMINO_T, required: 2, placed: 0 },
+    { shape: TETROMINO_O, required: 1, placed: 0 },
   ],
   difficulty: 3,
 };
@@ -782,9 +791,9 @@ const LEVEL_40: Level = {
   lockedCells: [],
   blockedCells: VERIFIED_BLOCKED[40],
   requiredShapes: [
-    { shape: TETROMINO_L, required: 2, placed: 0 },
+    { shape: TETROMINO_Z, required: 2, placed: 0 },
+    { shape: TETROMINO_J, required: 2, placed: 0 },
     { shape: TETROMINO_O, required: 1, placed: 0 },
-    { shape: TETROMINO_T, required: 2, placed: 0 },
   ],
   difficulty: 3,
 };
@@ -798,9 +807,9 @@ const LEVEL_41: Level = {
   lockedCells: [],
   blockedCells: VERIFIED_BLOCKED[41],
   requiredShapes: [
+    { shape: TETROMINO_S, required: 2, placed: 0 },
     { shape: TETROMINO_L, required: 2, placed: 0 },
-    { shape: TETROMINO_O, required: 1, placed: 0 },
-    { shape: TETROMINO_T, required: 2, placed: 0 },
+    { shape: TETROMINO_T, required: 1, placed: 0 },
   ],
   difficulty: 3,
 };
@@ -814,9 +823,9 @@ const LEVEL_42: Level = {
   lockedCells: [],
   blockedCells: VERIFIED_BLOCKED[42],
   requiredShapes: [
-    { shape: TETROMINO_L, required: 2, placed: 0 },
-    { shape: TETROMINO_O, required: 1, placed: 0 },
-    { shape: TETROMINO_T, required: 2, placed: 0 },
+    { shape: TETROMINO_J, required: 2, placed: 0 },
+    { shape: TETROMINO_Z, required: 2, placed: 0 },
+    { shape: TETROMINO_T, required: 1, placed: 0 },
   ],
   difficulty: 3,
 };
@@ -831,8 +840,8 @@ const LEVEL_43: Level = {
   blockedCells: VERIFIED_BLOCKED[43],
   requiredShapes: [
     { shape: TETROMINO_L, required: 2, placed: 0 },
+    { shape: TETROMINO_S, required: 2, placed: 0 },
     { shape: TETROMINO_O, required: 1, placed: 0 },
-    { shape: TETROMINO_T, required: 2, placed: 0 },
   ],
   difficulty: 3,
 };
@@ -862,9 +871,9 @@ const LEVEL_45: Level = {
   lockedCells: [],
   blockedCells: VERIFIED_BLOCKED[45],
   requiredShapes: [
-    { shape: TETROMINO_L, required: 4, placed: 0 },
+    { shape: TETROMINO_J, required: 3, placed: 0 },
+    { shape: TETROMINO_L, required: 3, placed: 0 },
     { shape: TETROMINO_O, required: 2, placed: 0 },
-    { shape: TETROMINO_T, required: 2, placed: 0 },
   ],
   difficulty: 3,
 };
@@ -878,9 +887,9 @@ const LEVEL_46: Level = {
   lockedCells: [],
   blockedCells: VERIFIED_BLOCKED[46],
   requiredShapes: [
-    { shape: TETROMINO_L, required: 2, placed: 0 },
+    { shape: TETROMINO_I, required: 2, placed: 0 },
+    { shape: TETROMINO_S, required: 2, placed: 0 },
     { shape: TETROMINO_O, required: 1, placed: 0 },
-    { shape: TETROMINO_T, required: 2, placed: 0 },
   ],
   difficulty: 3,
 };
@@ -894,9 +903,9 @@ const LEVEL_47: Level = {
   lockedCells: [],
   blockedCells: VERIFIED_BLOCKED[47],
   requiredShapes: [
-    { shape: TETROMINO_L, required: 3, placed: 0 },
-    { shape: TETROMINO_O, required: 1, placed: 0 },
+    { shape: TETROMINO_Z, required: 2, placed: 0 },
     { shape: TETROMINO_T, required: 2, placed: 0 },
+    { shape: TETROMINO_L, required: 2, placed: 0 },
   ],
   difficulty: 3,
 };
@@ -910,9 +919,9 @@ const LEVEL_48: Level = {
   lockedCells: [],
   blockedCells: VERIFIED_BLOCKED[48],
   requiredShapes: [
-    { shape: TETROMINO_L, required: 2, placed: 0 },
-    { shape: TETROMINO_O, required: 1, placed: 0 },
-    { shape: TETROMINO_T, required: 2, placed: 0 },
+    { shape: TETROMINO_J, required: 2, placed: 0 },
+    { shape: TETROMINO_S, required: 2, placed: 0 },
+    { shape: TETROMINO_T, required: 1, placed: 0 },
   ],
   difficulty: 3,
 };
@@ -926,9 +935,9 @@ const LEVEL_49: Level = {
   lockedCells: [],
   blockedCells: VERIFIED_BLOCKED[49],
   requiredShapes: [
-    { shape: TETROMINO_L, required: 3, placed: 0 },
-    { shape: TETROMINO_O, required: 1, placed: 0 },
-    { shape: TETROMINO_T, required: 2, placed: 0 },
+    { shape: TETROMINO_L, required: 2, placed: 0 },
+    { shape: TETROMINO_Z, required: 2, placed: 0 },
+    { shape: TETROMINO_J, required: 2, placed: 0 },
   ],
   difficulty: 3,
 };
@@ -942,8 +951,8 @@ const LEVEL_50: Level = {
   lockedCells: [],
   blockedCells: VERIFIED_BLOCKED[50],
   requiredShapes: [
-    { shape: TETROMINO_L, required: 3, placed: 0 },
-    { shape: TETROMINO_O, required: 1, placed: 0 },
+    { shape: TETROMINO_S, required: 2, placed: 0 },
+    { shape: TETROMINO_Z, required: 2, placed: 0 },
     { shape: TETROMINO_T, required: 2, placed: 0 },
   ],
   difficulty: 3,
