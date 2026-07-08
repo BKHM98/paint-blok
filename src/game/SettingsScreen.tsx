@@ -9,6 +9,7 @@ import {
   Switch,
   Pressable,
   Alert,
+  Linking,
 } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import * as Haptics from 'expo-haptics';
@@ -180,9 +181,34 @@ const SettingsScreen: React.FC<SettingsScreenProps> = ({
           </Pressable>
         </View>
 
+        {/* Legal Section */}
+        <View style={styles.section}>
+          <Text style={[styles.sectionTitle, { color: theme.textMuted }]}>Legal</Text>
+
+          <Pressable
+            style={[styles.settingRow, { backgroundColor: theme.cardBg }]}
+            onPress={() => Linking.openURL('https://bkhm98.github.io/paint-blok/privacy.html')}
+          >
+            <View style={styles.settingInfo}>
+              <Text style={[styles.settingLabel, { color: theme.textPrimary }]}>Privacy Policy</Text>
+            </View>
+            <Ionicons name="open-outline" size={20} color={theme.textMuted} />
+          </Pressable>
+
+          <Pressable
+            style={[styles.settingRow, { backgroundColor: theme.cardBg, marginTop: 10 }]}
+            onPress={() => Linking.openURL('https://bkhm98.github.io/paint-blok/terms.html')}
+          >
+            <View style={styles.settingInfo}>
+              <Text style={[styles.settingLabel, { color: theme.textPrimary }]}>Terms of Service</Text>
+            </View>
+            <Ionicons name="open-outline" size={20} color={theme.textMuted} />
+          </Pressable>
+        </View>
+
         {/* App Info */}
         <View style={styles.appInfo}>
-          <Text style={[styles.appName, { color: theme.accentPurple }]}>FLAIR</Text>
+          <Text style={[styles.appName, { color: theme.accentPurple }]}>Paint Blok</Text>
           <Text style={[styles.appVersion, { color: theme.textMuted }]}>Version 1.0.0</Text>
         </View>
       </View>
